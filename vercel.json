@@ -1,7 +1,10 @@
 {
-    "version": 2,
-    "routes": [
-        {"src": "/(.*)","dest": "https://baidu.com/$1"}
-    ]
-  }
-  
+  "version": 2,
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "https://baidu.com/$1",
+      "code": 200
+    }
+  ]
+}
