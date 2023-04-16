@@ -1,28 +1,3 @@
-# [[redirects]]
-#   from = "/*"
-#   to = "https://www.google.com/:splat"
-#   status = 200
-# [[redirects]]
-#   from = "/youtube/*"
-#   to = "https://www.youtube.com/:splat"
-#   status = 200
-
-
-# [[redirects]]
-#   from = "/search/*"
-#   to = "https://www.google.com/search/:splat"
-#   status = 200
-
-# [[redirects]]
-#   from = "/images/*"
-#   to = "https://www.google.com/images/:splat"
-#   status = 200
-
-# [[redirects]]
-#   from = "/maps/*"
-#   to = "https://www.google.com/maps/:splat"
-#   status = 200
-
 [[redirects]]
   from = "/static/*"
   to = "https://www.google.com/static/:splat"
