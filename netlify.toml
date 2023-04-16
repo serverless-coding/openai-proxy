@@ -35,3 +35,4 @@
 [[redirects]]
   from = "/*"
   to = "https://www.google.com/:splat"
+  status = 200
