@@ -19,6 +19,11 @@
   status = 200
 
 [[redirects]]
+  from = "/watch/*"
+  to = "https://www.youtube.com/:splat"
+  status = 200
+
+[[redirects]]
   from = "/*"
   to = "https://www.google.com/:splat"
   status = 200
