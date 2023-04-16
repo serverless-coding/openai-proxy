@@ -33,7 +33,7 @@
   to = "https://www.gstatic.com/:splat"
   status = 200
 
-# [[redirects]]
-#   from = "/*"
-#   to = "https://www.google.com/:splat"
-#   status = 200
+[[redirects]]
+  from = "/*"
+  to = "https://www.google.com/:splat"
+  status = 200
