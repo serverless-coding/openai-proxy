@@ -19,6 +19,16 @@
   status = 200
 
 [[redirects]]
+  from = "/css2/*"
+  to = "https://fonts.googleapis.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/generate_204/*"
+  to = "https://i.ytimg.com/:splat"
+  status = 200
+
+[[redirects]]
   from = "/watch/*"
   to = "https://www.youtube.com/:splat"
   status = 200
