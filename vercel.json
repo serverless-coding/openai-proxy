@@ -3,7 +3,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "https://baidu.com/$1",
+      "dest": "https://www.google.com/$1",
       "status": 200
     }
   ]
