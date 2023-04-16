@@ -7,10 +7,6 @@
 #   to = "https://www.youtube.com/:splat"
 #   status = 200
 
-[[redirects]]
-  from = "/adsid/google/ui/*"
-  to = "https://adservice.google.com/adsid/google/ui/:splat"
-  status = 200
 
 [[redirects]]
   from = "/search/*"
@@ -25,6 +21,16 @@
 [[redirects]]
   from = "/maps/*"
   to = "https://www.google.com/maps/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/static/*"
+  to = "https://www.google.com/static/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/adsid/google/ui/*"
+  to = "https://adservice.google.com/adsid/google/ui/:splat"  
   status = 200
 
 [[redirects]]
