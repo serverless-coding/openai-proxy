@@ -1,7 +1,7 @@
 {
     "version": 2,
     "routes": [
-        {"src": "/(.*)","dest": "https://google.com/$1"}
+        {"src": "/(.*)","dest": "https://baidu.com/$1"}
     ]
   }
   
