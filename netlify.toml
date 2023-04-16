@@ -1,4 +1,8 @@
 [[redirects]]
-  from = "/*"
+  from = "/google/*"
   to = "https://www.google.com/:splat"
+  status = 200
+[[redirects]]
+  from = "/youtube/*"
+  to = "https://www.youtube.com/:splat"
   status = 200
