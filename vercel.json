@@ -4,7 +4,7 @@
     {
       "src": "/(.*)",
       "dest": "https://baidu.com/$1",
-      "code": 200
+      "status": 200
     }
   ]
 }
