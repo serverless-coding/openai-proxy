@@ -29,6 +29,11 @@
   status = 200
 
 [[redirects]]
+  from = "/gen_204/*"
+  to = "https://i.ytimg.com/:splat"
+  status = 200
+
+[[redirects]]
   from = "/watch/*"
   to = "https://www.youtube.com/:splat"
   status = 200
